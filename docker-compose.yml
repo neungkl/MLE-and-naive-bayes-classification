@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  ml:
+    image: neungkl/ml-utility
+    volumes:
+      - .:/notebooks
+    ports:
+      - 8888:8888
