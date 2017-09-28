@@ -3,7 +3,7 @@ MLE and Naive Bayes Classification
 
 > :books: This is homework for 2110597 Pattern Recognition class
 
-# Problem
+## Problem
 
 We will analyze sample genes dataset to classify housekeeping genes.
 
@@ -17,7 +17,7 @@ The task is simply. Classify these genes, is it a "housekeeping gene" or "tissue
 
 More description and feature explanation in [task.pdf](task.pdf)
 
-# Usage
+## Usage
 
 This project require [Docker](https://www.docker.com/) to run.
 
@@ -29,14 +29,14 @@ This project require [Docker](https://www.docker.com/) to run.
 
 After Docker completed composing, then click on any files to see the code and playaround.
 
-## File Description
+### File Description
 
 - `task.pdf` – Original task for this project
 - `simple-bayes-classifier.ipynb` - Normal distribution graph plot from task 2
 - `gene-prediction-bin-bucket.ipynd` – Housekeeping gene prediction with histogram discretization method
 - `gene-prediction-gaussian.iynd` – Housekeeping gene prediction with Gaussian maximum likelihood
 
-# Result
+## Result
 
 | Algorithm                     | Accuracy | Precision | Recall | F1 |
 | -------------                 | --- | --- | --- | --- |
@@ -48,10 +48,10 @@ After Docker completed composing, then click on any files to see the code and pl
 The histogram discretization MLE is the best algorithm compared to other algorithm, which archive accuracy to 97.43%
 with 91.67% F1 score.
 
-## RoC Curver
+### RoC Curve
 
 <img width="400" alt="result" src="./writeup/images/roc_less.png">
 
-# License
+## License
 
 [MIT](LICENSE) © Kosate Limpongsa
