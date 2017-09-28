@@ -7,9 +7,9 @@ MLE and Naive Bayes Classification
 
 We will analyze sample genes dataset to classify housekeeping genes.
 
-"Housekeeping genes" is set of genes that our body share basic functions and activites,
+**"Housekeeping genes"** is set of genes that our body share basic functions and activites,
 such as production of proteins and cell growth. Therefore, housekeeping genes are typically expressed
-at consistent levels in every cell and under every condition. In contrast, "tissue-specific genes" are
+at consistent levels in every cell and under every condition. In contrast, **"tissue-specific genes"** are
 those reponsible for highly specialized cellular functions and each of them is expressed in only
 some tissues in an organism.
 
